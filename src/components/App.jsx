@@ -12,7 +12,6 @@ export class App extends Component {
   };
 
   onLeaveFeedback = name => {
-    console.log(name);
 
     this.setState(prevValues => {
       return { [name]: prevValues[name] + 1 };
